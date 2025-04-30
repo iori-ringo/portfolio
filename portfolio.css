@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -11,15 +12,12 @@ body {
     background-color: #f5f7fa;
     color: #333;
     line-height: 1.6;
-}
 
-#all {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Sticky Navigation */
 nav {
     position: sticky;
     top: 0;
@@ -34,11 +32,9 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* 横の空間をやや小さく */
     list-style: none;
     margin: 0 auto;
     max-width: 800px;
-    /* 全体の横幅を抑える */
     padding: 0;
 }
 
@@ -52,7 +48,6 @@ nav ul li a {
     font-weight: 600;
     transition: color 0.3s;
     padding: 4px 10px;
-    /* 横のパディングを少し減らす */
     display: block;
     font-size: 1rem;
     border-radius: 4px;
